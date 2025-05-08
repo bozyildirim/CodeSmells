@@ -1,4 +1,4 @@
-public class TestSmell {
+public class Test {
 
     // Large Class example
     private int field1;
@@ -62,7 +62,7 @@ public class TestSmell {
     // Feature Envy example
     private String data;
 
-    public TestSmell(String data) {
+    public Test(String data) {
         this.data = data;
     }
 
@@ -76,7 +76,7 @@ public class TestSmell {
     }
 
     public static void main(String[] args) {
-        TestSmell smell = new TestSmell("hello");
+        Test smell = new Test("hello");
         smell.tooLongMethod();
         System.out.println(smell.processData());
     }

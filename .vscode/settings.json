@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "bozyildirim",
+        "projectKey": "bozyildirim_CodeSmells"
+    }
+}
